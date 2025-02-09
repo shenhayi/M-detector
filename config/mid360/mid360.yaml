@@ -1,7 +1,7 @@
 dyn_obj:
-    points_topic: "/cloud_registered_body"
-    odom_topic: "/Odometry"
-    frame_id: "camera_init"
+    points_topic: "/pointcloud"
+    odom_topic: "/mavros/local_position/odom"
+    frame_id: "map"
     pc_topic: "/livox/lidar"
 
     dataset: 4 #0 for kitti, 1 for nuscenes, 2 for waymo
